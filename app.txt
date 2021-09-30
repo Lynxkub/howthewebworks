@@ -1,0 +1,10 @@
+HTTP response- The information that is sent back from the server based on the request that you initially made
+HTTP Header-They let the client and the server pass additional information within the request or response
+	EX: Accept-Language/Location
+
+When "http://somesite.com/some/page.html" is typed into the browser....
+	1. The http protocol is decided upon as how it is going to try to access the data
+	2. The IP address for somesite.com is going to found from either local caches or through a DNS. When it is found, it will return the IP address so that we know where the address is for the website. 
+	3. My browser sends a reqeust to the IP address for the website with information about my browser
+	4. The server sends a response back with the information for the websie. 
+	5. The browser makes the DOM and annalyzes all of the code and turns it into a website. 
